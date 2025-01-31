@@ -1,0 +1,15 @@
+
+.car{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+    background-color: beige;
+}
+.car-title{
+    font-size: 20px;
+    color: red;
+}
+.car-description{
+    font-size: 16px;
+    color: grey;
+}

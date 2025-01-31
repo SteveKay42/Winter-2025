@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(228, 216, 216);
+    padding: 60px;
+}
+.container{
+    background-color: white;
+    padding: 20px;
+}
+.heading{
+    background-color: orange;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading_2{
+    text-align: center;
+}
+.contain_1{
+    background-color: beige;
+    padding: 20px;
+    color: rgb(185, 80, 4);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid black;
+}
