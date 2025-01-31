@@ -26,10 +26,11 @@ while choice.lower() == "y":
         price = int(input("How much does your product cost?: "))
         if price <= 0:
             print("Invalid input")
-
+    # Calculate the total cost of products
     total_amount = (quantity * price)
 
     print(f"{customer_name} has purchased {quantity} {product_name}'s for ${total_amount}.")
+    #Ask if the customer wants to continue
     choice = input("Do you want to continue? y/n: ")
 
 print("Have a great day!")
