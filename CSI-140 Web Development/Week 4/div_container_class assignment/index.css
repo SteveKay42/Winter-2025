@@ -24,3 +24,17 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 1px solid black;
 }
+.recipe-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.recipe-content img {
+    margin-right: 20px;
+}
+
+.recipe-content ol {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
