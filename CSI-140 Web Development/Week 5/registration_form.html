@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forms</title>
+    <style>
+        form {
+            width: 30%;
+            padding: 20px;
+            border: 1px solid black;
+            background-color: aliceblue;
+            padding-left: 20px;   
+        }
+        label {
+            font-weight: bold;
+            display: block; /* Ensure labels are displayed as block elements */
+        }
+        input, select, textarea {
+            width: 80%;
+            margin-top: 5px;
+            padding: 8px;
+            border: 1px solid black;
+            margin-bottom: 4px;
+            display: block; /* Ensure inputs, selects, and textareas are displayed as block elements */
+        }
+        input[type="radio"], input[type="checkbox"] {
+            width: auto; /* Set width to auto for radio buttons and checkboxes */
+            margin-top: 0; /* Remove top margin for radio buttons and checkboxes */
+        }
+        .radio-group, .checkbox-group {
+            display: flex;
+            flex-direction: row; /* Display radio buttons and checkboxes horizontally */
+            align-items: flex-start; /* Align radio buttons and checkboxes to the left */
+        }
+        .radio-group label, .checkbox-group label {
+            display: flex;
+            flex-direction: column; /* Stack text underneath the radio buttons and checkboxes */
+            align-items: center; /* Center align the text */
+            margin-right: 10px; /* Add some space between radio buttons and checkboxes */
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px;
+            background: blue;
+            color: white;
+            display: block; /* Ensure the button is displayed as a block element */
+            width: 100%; /* Make the button take up the full width of the form */
+        }
+        fieldset {
+            border: none; /* Remove the border around the fieldset */
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email">
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+        
+        <fieldset>
+            <legend><strong>Gender</strong></legend>
+            <div class="radio-group">
+                <label for="Male">
+                    <input type="radio" name="gender" value="Male" id="Male">
+                    Male
+                </label>
+                <label for="Female">
+                    <input type="radio" name="gender" value="Female" id="Female">
+                    Female
+                </label>
+                <label for="Other">
+                    <input type="radio" name="gender" value="Other" id="Other">
+                    Other
+                </label>
+            </div>
+        </fieldset>
+        
+        <p><strong>Select Course:</strong></p>
+        <select name="Select Course">
+            <option value="Computer Science">Computer Science</option>
+            <option value="Culinary">Culinary</option>
+            <option value="Nursing">Nursing</option>
+        </select>
+        
+        <label for="message">Address</label>
+        <textarea id="message" name="message" rows="4" placeholder="Enter your address..."></textarea>
+        
+        <fieldset>
+            <legend><strong>Hobbies:</strong></legend>
+            <div class="checkbox-group">
+                <label for="Reading">
+                    <input type="checkbox" id="Reading" name="Reading">
+                    Reading
+                </label>
+                <label for="Sports">
+                    <input type="checkbox" id="Sports" name="Sports">
+                    Sports
+                </label>
+                <label for="Music">
+                    <input type="checkbox" id="Music" name="Music">
+                    Music
+                </label>
+            </div>
+        </fieldset>
+        
+        <button type="Register">Register</button>
+    </form>
+</body>
+</html>
