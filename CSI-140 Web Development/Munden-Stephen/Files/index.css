@@ -1,0 +1,115 @@
+/* CSS to reset margin and padding for the entire document */
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray; /* Set the background color of the page */
+}
+/* CSS to style the banner image */
+.banner {
+    width: 100%; /* Make the banner take up the entire width of the page */
+    margin-top: 20px; /* Add space between the top of the page and the top of the banner */
+    height: 100px; /* Set the height of the banner */
+}
+.container {
+    display: flex; /* Use flexbox to align the items in the container */
+    justify-content: center; /* Center the items horizontally in the container */
+    align-items: center; /* Center the items vertically in the container */
+    background-color: white; /* Set the background color of the container */
+    height: 30%;
+    margin: 20px 60px; /* Add space around the container */
+}
+nav {
+    display: flex; /* Use flexbox to align the items in the nav */
+    justify-content: center; /* Center the items horizontally in the nav */
+    align-items: center; /* Center the items vertically in the nav */
+}
+nav a {
+    margin: 0 120px; /* Add space between the navigation links */
+}
+.logo {
+    margin: 0; /* Remove the default margin on the logo */
+}
+.container2 {
+    background-color: white; /* Set the background color of the container */
+    margin: 40px 200px; /* Add space around the container */
+    padding: 20px; /* Add padding inside the container */
+    text-align: center; /* Center the text in the container */
+    height: calc(100vh - 60px); /* Set the height to 100% of the viewport height minus the margin */
+}
+.container3 {
+    width: 50%;
+    background-color: white; /* Set the background color of the container */
+    margin: 40px auto; /* Add space around the container */
+    padding: 20px; /* Add padding inside the container */
+    text-align: center; /* Center the text in the container */
+    border-radius: 10px; /* Make the container's border rounded */
+}
+.container4 {
+    background-color: white; /* Set the background color of the container */
+    margin: 40px 200px; /* Add space around the container */
+    padding: 20px; /* Add padding inside the container */
+    text-align: center; /* Center the text in the container */
+}
+.container4 .content2 {
+    text-align: left; /* Align text to the left */
+    margin-left: auto; /* Align the content to the left */
+    margin-right: auto; /* Align the content to the right */
+    width: 60%; /* Set the width of the content */
+}
+.container4 ul {
+    list-style-position: inside; /* Ensure bullet points are inside the list item */
+    padding: 0; /* Remove default padding */
+    text-align: left; /* Align text to the left */
+    display: inline-block; /* Make the list inline-block to center it */
+}
+.container4 li {
+    text-align: left; /* Align text to the left within the list items */
+}
+.h1 {
+    text-align: center; /* Center the text in the h1 element */
+    color: lightcoral; /* Set the text color of the h1 element */
+}
+.content {
+    display: flex; /* Use flexbox to align the items in the content */
+    justify-content: space-between; /* Distribute space between the items */
+    background-color: beige; /* Set the background color of the content */
+    margin-top: 20px; /* Add space between the top of the content and the top of the page */
+    padding: 20px; /* Add padding inside the content */
+}
+.paragraph {
+    flex: 1; /* Allow the paragraph to grow and fill the available space */
+    margin: 0 10px; /* Add horizontal space between the paragraphs */
+    padding: 10px; /* Add padding around the paragraph */
+    background-color: lightblue; /* Set the background color of the paragraph */
+    border: 1px solid black; /* Add a border around the paragraph */
+    font-family: 'Times New Roman', Times, serif; /* Set the font family of the paragraph */
+    text-align: center; /* Center the text in the paragraph */
+}
+.form-container {
+    border: 2px solid black; /* Add a black border */
+    border-radius: 10px; /* Make the border rounded */
+    padding: 20px; /* Add padding inside the form */
+    width: 300px; /* Set a fixed width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+    background-color: white; /* Set the background color of the form */
+}
+.form-group {
+    display: flex; /* Use flexbox to align the items in the form group */
+    flex-direction: column; /* Align items vertically */
+    margin-bottom: 15px; /* Add space between form groups */
+}
+.form-group input {
+    padding: 5px; /* Add padding inside the input fields */
+    border: 1px solid #ccc; /* Add a border to the input fields */
+    border-radius: 5px; /* Make the input fields' borders rounded */
+    background-color: lightyellow; /* Set the background color of the input fields */
+}
+.submit-btn {
+    display: block; /* Make the submit button a block element */
+    margin: 0 auto; /* Center the submit button horizontally */
+}
+.register_link {
+    display: inline-block; /* Make the register link an inline-block element */
+    margin: 20px auto; /* Center the register link horizontally and add margin */
+    color: red; /* Set the text color of the register link */
+}

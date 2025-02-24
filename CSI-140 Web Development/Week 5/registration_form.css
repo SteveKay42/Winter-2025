@@ -1,0 +1,53 @@
+/* Style for the form element */
+form {
+    width: 30%; /* Set the width of the form */
+    padding: 20px; /* Add padding inside the form */
+    border: 1px solid black; /* Add a black border around the form */
+    background-color: aliceblue; /* Set the background color of the form */
+    padding-left: 20px; /* Add padding to the left inside the form */
+}
+/* Style for label elements */
+label {
+    font-weight: bold; /* Make the label text bold */
+    display: block; /* Ensure labels are displayed as block elements */
+}
+/* Style for input, select, and textarea elements */
+input, select, textarea {
+    width: 80%; /* Set the width of input, select, and textarea elements */
+    margin-top: 5px; /* Add margin to the top */
+    padding: 8px; /* Add padding inside the elements */
+    border: 1px solid black; /* Add a black border around the elements */
+    margin-bottom: 4px; /* Add margin to the bottom */
+    display: block; /* Ensure elements are displayed as block elements */
+}
+/* Style for radio buttons and checkboxes */
+input[type="radio"], input[type="checkbox"] {
+    width: auto; /* Set width to auto for radio buttons and checkboxes */
+    margin-top: 0; /* Remove top margin for radio buttons and checkboxes */
+}
+        /* Style for radio button and checkbox groups */
+        .radio-group, .checkbox-group {
+    display: flex; /* Use flexbox layout */
+    flex-direction: row; /* Display radio buttons and checkboxes horizontally */
+    align-items: flex-start; /* Align radio buttons and checkboxes to the left */
+}
+/* Style for labels within radio and checkbox groups */
+.radio-group label, .checkbox-group label {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack text underneath the radio buttons and checkboxes */
+    align-items: center; /* Center align the text */
+    margin-right: 10px; /* Add some space between radio buttons and checkboxes */
+}
+/* Style for the submit button */
+button {
+    margin-top: 10px; /* Add margin to the top */
+    padding: 10px; /* Add padding inside the button */
+    background: blue; /* Set the background color of the button */
+    color: white; /* Set the text color of the button */
+    display: block; /* Ensure the button is displayed as a block element */
+    width: 100%; /* Make the button take up the full width of the form */
+}
+/* Style for fieldset elements */
+fieldset {
+    border: none; /* Remove the border around the fieldset */
+}
