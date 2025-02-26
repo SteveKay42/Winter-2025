@@ -5,9 +5,9 @@
     
 #print("End of the program")
 
-num = 1
+num = int(input("Enter starting number: "))
 counter = 0
-total = 30
+total = int(input("Enter total count: "))
 while counter < total:
     if num % 5 == 0:
         num += 1
@@ -16,4 +16,4 @@ while counter < total:
     num += 1
     counter += 1
 
-print("\nTOtal numbers: ", counter)
+print("\nTotal numbers: ", counter)
